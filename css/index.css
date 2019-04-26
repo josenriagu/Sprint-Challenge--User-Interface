@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+.headernav{
+    width: 800px;
+    margin: auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
