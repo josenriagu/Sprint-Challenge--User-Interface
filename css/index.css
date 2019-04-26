@@ -60,10 +60,12 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: 600;
 }
 
 p {
     line-height: 1.4;
+    font-weight: 600;
 }
 
 .headernav{
@@ -93,6 +95,7 @@ p {
     color: black;
     padding-left: 52px;
     padding-right: 20px;
+    font-weight: 600;
 }
 
 .container {
@@ -162,12 +165,16 @@ p {
 }
 
 .middle-section{
-    padding: 20px 20px 40px 20px;
+    padding: 30px 18px 45px 18px;
 }
 
+.middle-section img{
+    width: 100%;
+    margin-bottom: 10px;
+}
 .middle1{
     display: flex;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 
 }
 
@@ -175,18 +182,36 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.upper{
-    margin-right: 20px;
+.upper1{
+    margin-right: 15px;
 }
 
-.lower{
-    margin-left: 20px;
+.upper2{
+    margin-left: 15px;
 }
+
+.lower1{
+    margin-right: 15px;
+}
+
+.lower2{
+    margin-left: 15px;
+}
+
 
 button{
+    margin-top: 20px;
+    border: 2px solid black;
     margin-bottom: 20px;
-    border-radius: 6px;
-    background-color: transparent;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	cursor: pointer;
+    background-color: white;
+    font-weight: 600;
+    font-size: 14px;
+    /* line-height: 3; */
 }
 footer {
     width: 100%;
@@ -205,4 +230,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
+    font-weight: 600;
