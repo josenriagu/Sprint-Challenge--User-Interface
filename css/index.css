@@ -168,10 +168,26 @@ p {
 .middle1{
     display: flex;
     padding-bottom: 40px;
+
 }
 
+.a{
+    border-bottom: 1px dashed black;
+}
 
+.upper{
+    margin-right: 20px;
+}
 
+.lower{
+    margin-left: 20px;
+}
+
+button{
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: transparent;
+}
 footer {
     width: 100%;
     background: black;
