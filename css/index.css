@@ -160,9 +160,17 @@ p {
     padding-bottom: 15px;
     border-bottom: 1px dashed black;
 }
+
 .middle-section{
-    padding: 0px 20px;
+    padding: 20px 20px 40px 20px;
 }
+
+.middle1{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+
 
 footer {
     width: 100%;
