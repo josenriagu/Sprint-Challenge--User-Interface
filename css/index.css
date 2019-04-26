@@ -69,6 +69,30 @@ p {
 .headernav{
     width: 800px;
     margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.header{
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+
+.header-logo{
+    flex: 1;
+}
+
+.header-menu{
+    flex: 4;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: black;
+    padding-left: 52px;
+    padding-right: 20px;
 }
 
 .container {
